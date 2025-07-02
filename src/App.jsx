@@ -5,16 +5,18 @@ import Layout from '@/components/organisms/Layout';
 import Dashboard from '@/components/pages/Dashboard';
 import Tasks from '@/components/pages/Tasks';
 import Timer from '@/components/pages/Timer';
+import Settings from '@/components/pages/Settings';
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-background">
         <Layout>
-          <Routes>
+<Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/tasks" element={<Tasks />} />
             <Route path="/timer" element={<Timer />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </Layout>
         <ToastContainer

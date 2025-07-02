@@ -6,10 +6,11 @@ import ApperIcon from '@/components/ApperIcon';
 const BottomNavigation = () => {
   const location = useLocation();
 
-  const navItems = [
+const navItems = [
     { path: '/', icon: 'Home', label: 'Dashboard' },
     { path: '/tasks', icon: 'CheckSquare', label: 'Tasks' },
     { path: '/timer', icon: 'Timer', label: 'Timer' },
+    { path: '/settings', icon: 'Settings', label: 'Settings' },
   ];
 
   return (
