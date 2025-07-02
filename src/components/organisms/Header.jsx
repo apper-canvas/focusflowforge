@@ -40,12 +40,9 @@ const Header = () => {
           )}
         </div>
         
-        <div className="flex items-center space-x-3">
+<div className="flex items-center space-x-3">
           <button className="p-2 rounded-lg bg-surface hover:bg-slate-700 transition-colors duration-200">
             <ApperIcon name="Search" size={20} className="text-slate-400" />
-          </button>
-          <button className="p-2 rounded-lg bg-surface hover:bg-slate-700 transition-colors duration-200">
-            <ApperIcon name="Settings" size={20} className="text-slate-400" />
           </button>
         </div>
       </div>
