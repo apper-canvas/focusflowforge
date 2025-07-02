@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete quarterly report",
+    "description": "Finish the Q4 performance analysis and prepare presentation slides for the upcoming board meeting.",
+    "priority": "high",
+    "effortHours": 4,
+    "completed": false,
+    "createdAt": "2024-01-15T09:00:00Z",
+    "completedAt": null,
+    "actualMinutes": 0
+  },
+  {
+    "Id": 2,
+    "title": "Review team feedback",
+    "description": "Go through the 360-degree feedback forms and schedule follow-up meetings with team members.",
+    "priority": "medium",
+    "effortHours": 2,
+    "completed": false,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "completedAt": null,
+    "actualMinutes": 0
+  },
+  {
+    "Id": 3,
+    "title": "Update project documentation",
+    "description": "Revise the API documentation and add new endpoint descriptions for the mobile app integration.",
+    "priority": "medium",
+    "effortHours": 3,
+    "completed": false,
+    "createdAt": "2024-01-15T11:00:00Z",
+    "completedAt": null,
+    "actualMinutes": 0
+  },
+  {
+    "Id": 4,
+    "title": "Plan team building event",
+    "description": "Research venues and activities for the upcoming team retreat. Get quotes and availability.",
+    "priority": "low",
+    "effortHours": 1,
+    "completed": false,
+    "createdAt": "2024-01-15T14:00:00Z",
+    "completedAt": null,
+    "actualMinutes": 0
+  },
+  {
+    "Id": 5,
+    "title": "Prepare presentation slides",
+    "description": "Create slides for the client presentation next week. Include market analysis and proposal details.",
+    "priority": "high",
+    "effortHours": 2,
+    "completed": false,
+    "createdAt": "2024-01-15T15:30:00Z",
+    "completedAt": null,
+    "actualMinutes": 0
+  },
+  {
+    "Id": 6,
+    "title": "Code review session",
+    "description": "Review the pull requests from the development team and provide feedback on the new features.",
+    "priority": "medium",
+    "effortHours": 1,
+    "completed": true,
+    "createdAt": "2024-01-14T09:00:00Z",
+    "completedAt": "2024-01-14T10:30:00Z",
+    "actualMinutes": 85
+  },
+  {
+    "Id": 7,
+    "title": "Client follow-up calls",
+    "description": "Call three potential clients to discuss project requirements and timeline expectations.",
+    "priority": "high",
+    "effortHours": 1,
+    "completed": true,
+    "createdAt": "2024-01-14T11:00:00Z",
+    "completedAt": "2024-01-14T12:15:00Z",
+    "actualMinutes": 75
+  },
+  {
+    "Id": 8,
+    "title": "Organize desk workspace",
+    "description": "Clean and organize the workspace, file important documents, and update the task board.",
+    "priority": "low",
+    "effortHours": 0.5,
+    "completed": true,
+    "createdAt": "2024-01-14T16:00:00Z",
+    "completedAt": "2024-01-14T16:30:00Z",
+    "actualMinutes": 30
+  }
+]

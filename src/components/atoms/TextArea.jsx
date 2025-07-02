@@ -1,0 +1,27 @@
+import React from 'react';
+
+const TextArea = ({ 
+  label,
+  error,
+  className = '',
+  ...props 
+}) => {
+  return (
+    <div className="w-full">
+      {label && (
+        <label className="form-label">
+          {label}
+        </label>
+      )}
+      <textarea
+        className={`form-input resize-none ${error ? 'border-error focus:border-error focus:ring-error/20' : ''} ${className}`}
+        {...props}
+      />
+      {error && (
+        <p className="text-error text-sm mt-1">{error}</p>
+      )}
+    </div>
+  );
+};
+
+export default TextArea;
